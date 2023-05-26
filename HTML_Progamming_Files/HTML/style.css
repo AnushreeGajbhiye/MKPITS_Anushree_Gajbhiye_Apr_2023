@@ -1,0 +1,25 @@
+.div1{
+    height: 50%;
+    width: 50%;
+    border-top :5px solid red ;
+    border-bottom:6px dashed green ;
+    border-left: 8px dotted yellow;
+    border-right: 4px groove black;
+}
+.div2{
+   border: solid green;
+   border-bottom: hidden;
+}
+.div3{
+    border: solid blueviolet;
+    border-top-left-radius: 10px;
+    border-radius: 10px;
+
+}
+.div4{
+    border: solid green;
+    border-top-left-radius: 10px;
+    border-radius: 10%;
+
+
+}
