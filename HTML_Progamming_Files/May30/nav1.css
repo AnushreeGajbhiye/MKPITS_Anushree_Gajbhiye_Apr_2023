@@ -1,0 +1,35 @@
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    padding-top: 20px;
+    margin-right: 600px;
+    
+    
+}
+ul{
+    background-color:rgba(255, 182, 193, 0.74);
+    height: 80px;
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+  text-align: right;
+  display: inline-flex;
+  padding: 5px;
+ 
+  
+
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+  
+    
+    
+    
+}
