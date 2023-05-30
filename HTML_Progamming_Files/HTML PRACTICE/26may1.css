@@ -12,6 +12,7 @@ nav{
     background-color: rgba(128, 128, 128, 0.196);
     height: 80px  ;
     width: 100%;
+    border-radius: 40px;
 }
  nav ul{
     float: right;

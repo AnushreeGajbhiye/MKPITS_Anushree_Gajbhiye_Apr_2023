@@ -1,0 +1,32 @@
+.divv{
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+}
+.div1{
+    border: 2px solid black;
+    margin: 2px;
+}
+.para1{
+    text-align: center;
+    
+
+}
+.div2{
+    border: 2px solid black;
+    margin: 2px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+}
+img:hover{
+box-shadow: 2px 2px 2px 2px pink,2px 2px 2px 2px yellow;
+}
+.div3{
+    border: 2px solid black;
+    text-shadow: 3px 3px 3px red,3px 3px 3px blue;
+    margin: 2px;
+
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald:wght@200;300;400;500;600;700&family=Pangolin&display=swap');
+ 
+.para1{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pangolin', cursive;;
+    font-size: 18px;
+    font-weight: 800;
+    font-style:italic;
+    font-variant:small-caps;
+}
+.para2{
+
+  font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: oblique;
+    font-variant: normal;
+}
