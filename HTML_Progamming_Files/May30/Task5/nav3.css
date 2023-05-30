@@ -1,0 +1,43 @@
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    padding-top: 5px;
+    
+
+
+}
+ul{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(184, 135, 11, 0.541);
+    align-items: center;
+    display: flex;
+  
+}
+li{
+    
+    display: inline;
+    justify-content: center;
+    padding: 30px;
+    float: right;
+   
+
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border-bottom: 2px solid black;
+
+
+
+}
+a:hover{
+    color: blue;
+    border-left: 3px solid blue;
+}
+/* .under:hover{
+    color: blue;
+    border-bottom: none;
+} */
