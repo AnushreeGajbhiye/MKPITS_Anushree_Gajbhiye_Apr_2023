@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    position: relative;
+    z-index: 1;
+}
+h1{
+    position: absolute;
+    z-index: 2;
+    top: 170px;
+    left: 250px;
+    border: 2px solid blue;
+    background-color: rgba(0, 0, 255, 0.495);
+
+
+}
+p{
+    height: 120px;
+    width: 500px;
+    position: absolute;
+    z-index: 3;
+    top: 220px;
+    left: 100px;
+    border: 2px solid skyblue;
+    background-color: rgba(135, 207, 235, 0.719);
+    text-align: center;
+    padding: 15px 15px;
+    color: black;
+    
+}
+p:hover{
+    background-color: rgba(0, 255, 255, 0.562);
+}
