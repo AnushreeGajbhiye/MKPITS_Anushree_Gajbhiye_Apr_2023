@@ -1,0 +1,32 @@
+.imgg{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+
+}
+ul{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+    
+}
+a:hover{
+    background-color: lightpink;
+    box-shadow: 3px 3px 3px darkmagenta;
+}
+p{
+    text-align:justify;
+    margin:20px;
+}
