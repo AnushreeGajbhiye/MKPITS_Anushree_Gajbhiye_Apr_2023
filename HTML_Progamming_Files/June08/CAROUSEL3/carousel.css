@@ -1,0 +1,42 @@
+.imgg{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+
+}
+ul{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+    
+}
+a:hover{
+    background-color: lightpink;
+    box-shadow: 3px 3px 3px darkmagenta;
+}
+.carousel-item {
+    height: 300px;
+
+}
+.img1{
+    margin: 40px;
+    border: 3px ridge darkorchid;
+    width: 90%;
+    box-shadow: 3px 3px 3px darkorchid;
+}
+.para{
+    text-align: justify;
+    margin: 40px;
+}
