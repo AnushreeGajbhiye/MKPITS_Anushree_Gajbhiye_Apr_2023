@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-expand-lg{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,121,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+.container-fluid .navbar-brand{
+margin-left: 80px;
+color: white;
+font-family:cursive;
+font-size: 40px;
+}
+.navbar-collapse{
+    margin-left: 300px;
+}
+.d-flex{
+    margin-right: 40px;
+}
+
+
+
+.d-block{
+    height: 450px;
+}
+.head{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 800;
+    color: darkgreen;
+}
+.para{
+    margin-top: 30px;
+    text-align: justify;
+}
+img{
+    width: 80%;
+    margin-top: 30px;
+}
+p{
+    margin-top: 30px;  
+}
+.card{
+    justify-content: space-around;
+}
+.card.card-img-top{
+    width: 90px;
+}
+.foot{
+    background-color: rgba(0, 0, 0, 0.911);
+    width: 100%;
+    height: 250px;
+}
+.col-sm{
+    color: white;
+    text-align:justify;
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+.row.col-sm{
+margin: 30px;
+}
+.copy{
+    color: white;
+    text-align: center;
+}
+.card1{
+    margin: 30px;
+}
+.card2{
+    margin: 30px;
+}
+.card3{
+    margin: 30px;
+}
+.container{
+    margin: 30px;
+}
