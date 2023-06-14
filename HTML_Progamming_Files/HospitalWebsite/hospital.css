@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.collapse{
+    justify-content: space-around;
+    display: flex;
+}
+.navbar-nav{
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+    
+
+}
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 500px;
+
+}
+/* navbar */
+.navbar{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+
+}
+
+/* about-us */
+h1{
+    box-shadow: rgba(73, 73, 151, 0.25) 0px 30px 60px -12px inset, rgba(192, 120, 120, 0.3) 0px 18px 36px -18px inset;   
+}
+
+.col-md-12 img{
+    margin-bottom: 20px;
+    
+}
+.col-md-12 p{
+    margin-bottom: 30px;
+    
+}
+
+.col-md-12 button{
+    border-radius: 50px;
+    border: black;
+    background-color: rgb(84, 84, 234);
+    color: white;
+}
+.col-md-12 button:hover{
+    background-color: rgb(227, 104, 104);
+}
+.card{
+    margin: 10px;
+}
