@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- <h1 id="heading1"></h1> -->
+<button onclick="add()">Addition!!</button>
+<button onclick="sub()">Substraction!!</button>
+<button onclick="mul()">Multiplication!!</button>
+<button onclick="div()">Division!!</button>
+<button onclick="Name()">FullName!!</button>
+<h1 id="head"></h1>
+
+
+
+<script>
+    // var x=10;
+    // var y=10;
+    // var z= x+y;
+    // document.write(z);
+
+    // let department="CSE",
+    // dep="department",
+    // hod="hod is",
+    // student="abc";
+
+    // document.getElementById("heading1").innerHTML="<b>CSE</b>"+" "+d
+    // // document.getElementById("heading1").innerHTML=department;
+
+   
+    let x=10;
+    let y=20;
+    let firstName="Anushree";
+    let LastName="Gajbhiye";
+    function add(){
+        let z= x+y;
+        document.getElementById("head").innerHTML=z;
+    }
+    function sub(){
+        let z= x-y;
+        document.getElementById("head").innerHTML=z;
+    }
+    function mul(){
+        let z= x*y;
+        document.getElementById("head").innerHTML=z;
+    }
+    function div(){
+        let z= x/y;
+        document.getElementById("head").innerHTML=z;
+    }
+    function Name(){
+        let fullName=firstName+" "+LastName;
+        document.getElementById("head").innerHTML=fullName;
+    }
+  
+    
+</script> 
+
+
+
+</body>
+</html>
