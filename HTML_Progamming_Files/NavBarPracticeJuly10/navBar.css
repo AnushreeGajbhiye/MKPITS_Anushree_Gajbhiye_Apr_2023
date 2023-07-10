@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: lightgrey;
+    height: 80px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+  
+}
+li{
+    display: inline;
+
+}
+li:hover{
+    color: blue;
+    border: 1px solid white;
+    background-color:lightcyan;
+    padding: 7px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(227, 56, 56);
+}
