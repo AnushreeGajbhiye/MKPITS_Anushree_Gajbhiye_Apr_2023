@@ -1,0 +1,8 @@
+.carousel-inner .carousel-item img {
+    height: 500px;
+    width: 100%;
+}
+.navbar{
+    background: rgb(245,123,130);
+background: linear-gradient(90deg, rgba(245,123,130,0.647671568627451) 0%, rgba(217,234,124,0.812937675070028) 100%);
+}

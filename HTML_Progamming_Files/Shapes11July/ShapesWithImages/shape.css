@@ -1,0 +1,38 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+body{
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=11183e&c2=4fbaa6&gt=l&gd=dtl
+*/
+background: #11183E;
+background: linear-gradient(135deg, #531253d7, #4fbaa6);
+}
+
+.div1{
+    background-image: url(graph\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div2{
+    background-image: url(graph\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div3{
+    background-image: url(graph\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div4{
+    background-image: url(graph\ \(5\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+}
