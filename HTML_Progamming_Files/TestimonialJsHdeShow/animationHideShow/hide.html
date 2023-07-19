@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hide.css">
+</head>
+<body>
+
+    <center><h1 style="color: white; margin: 40px;">Light On/Off Task</h1></center>
+    <div id="div1">
+<center><img src="off.png" alt="" style="width: 150px; margin-top: 80px;"></center>
+<center><button onclick="divSwitchOnOff()" style="border-radius: 10px; width: 60px; padding: 10px; background-color: red; color: white;"><b>ON</b></button></center>
+    </div>
+
+    <div id="div2">
+        <center><img src="on.png" alt="" style="width: 190px;margin-top: 80px;"></center>
+<center><button onclick="divSwitchOnOff()" style="border-radius: 10px; width: 60px; padding: 10px; background-color: red; color: white;"><b>OFF</b></button></center>
+
+    </div>
+
+    <script>
+        function divSwitchOnOff(){
+            if(document.getElementById('div1').style.display=='none'){
+                document.getElementById('div1').style.display='block';
+                document.getElementById('div2').style.display='none';
+
+            }
+            else{
+                document.getElementById('div1').style.display='none';
+                document.getElementById('div2').style.display='block';
+
+
+            }
+        }
+      </script>
+    
+</body>
+</html>
