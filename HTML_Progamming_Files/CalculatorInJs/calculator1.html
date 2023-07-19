@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div>
+    <input type ="text" id="calculator1" name = "answer1" placeholder="Enter number 1"><br>
+    <input type ="text" id="calculator2" name = "answer2" placeholder="Enter number 2"><br>
+
+    <input type = "button" value = "+" onclick = "'+' ">  
+    <input type = "button" value = "-" onclick = "'-' ">  
+    <input type = "button" value = "*" onclick = "'*' ">  
+    <input type = "button" value = "/" onclick = "'/' ">  
+    <input type = "button" value = "%" onclick = "'%' "><br>  
+
+    <input type="text" id="result" placeholder="calculate" readonly>
+</div>
+<script>
+
+    let a=document.getElementById("calculator1").value;
+    let b=document.getElementById("calculator2").value;
+
+    function addition(){
+        let c=a+b;
+    }
+    function sustraction(){
+        let c=a-b;
+    }
+    function multiplication(){
+        let c=a*b;
+    }
+    function division(){
+        let c=a/b;
+    }
+    function modulus(){
+        let c=a%b;
+    } 
+</script>
+
+  
+</body>
+</html>

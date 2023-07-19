@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+   <div class="b">
+    <h2>Calculator</h2>
+    <input type="text" id="num1" placeholder="Enter Number 1">
+    <input type="text" id="num2" placeholder="Enter Number 2"> <br> <br>
+
+    <button onclick="addition()">Add</button>&nbsp;&nbsp;
+    <button onclick="subtraction()">Subtract</button>&nbsp;&nbsp;
+    <button onclick="multi()">mul</button>&nbsp;&nbsp;
+    <button onclick="modulus()">modulus</button><br> <br> <br>
+    <p id="result"></p> 
+   </div>
+
+
+<script>
+    function addition() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = num1 + num2;
+    document.getElementById("result").innerHTML = "Result: " + result;
+  }
+  
+  function subtraction() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = num1 - num2;
+    document.getElementById("result").innerHTML = "Result: " + result;
+  }
+  
+  function multi() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = num1 * num2;
+    document.getElementById("result").innerHTML = "Result: " + result;
+  }
+  function modulus() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = num1 % num2;
+    document.getElementById("result").innerHTML = "Result: " + result;
+  }
+  
+</script>
+  
+</body>
+</html>
